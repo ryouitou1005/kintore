@@ -1,0 +1,30 @@
+name: KinTore
+options:
+  bundleIdPrefix: com.ryou.kintore
+  deploymentTarget:
+    iOS: "17.0"
+  developmentLanguage: ja
+targets:
+  KinTore:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: KinTore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ryou.kintore.KinTore
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: "YES"
+        INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
+        INFOPLIST_KEY_CFBundleDisplayName: "筋トレノート"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait"
+        ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: "YES"
+schemes:
+  KinTore:
+    build:
+      targets:
+        KinTore: all
+    run:
+      config: Debug
