@@ -21,6 +21,7 @@ targets:
         INFOPLIST_KEY_CFBundleDisplayName: "筋トレノート"
         INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait"
         ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: "YES"
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
 schemes:
   KinTore:
     build:
